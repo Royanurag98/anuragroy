@@ -47,13 +47,12 @@ function App() {
   
   useEffect(() => {
     const showValue = sessionStorage.getItem("showValue");
+    setTimeout(()=>{
     if (!showValue) {
       setShow(true);
-      setTimeout(()=>{
-        sessionStorage.setItem("showValue", true);
-      },5000)
-     
+      sessionStorage.setItem("showValue", true);
     }
+  },5000)
     
    
   }, []);
