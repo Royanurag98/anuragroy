@@ -9,7 +9,7 @@ function Popup({show,setShow}) {
 
 
 
-<div class=" p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class=" p-6 bg-white border fixed border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
 <div class="relative p-4 w-full max-w-2xl max-h-full">
         {/* <!-- Modal content --> */}
         <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
