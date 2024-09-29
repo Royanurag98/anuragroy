@@ -22,6 +22,7 @@ import ProjectDetails from "./Components/projectDetails/ProjectDetails.jsx";
 import { useProject } from "./context/project-context.jsx";
 import { toast, ToastContainer } from "react-toastify";
 import ReviewSection from "./Components/ReviewSection.jsx";
+import Popup from "./Components/Popup.jsx";
 
 function PrivateRoute({children}){
   const {isAdmin,isLoading}=useAuth()
