@@ -52,7 +52,7 @@ function App() {
       setShow(true);
       sessionStorage.setItem("showValue", true);
     }
-  },5000)
+  },10000)
     
    
   }, []);
