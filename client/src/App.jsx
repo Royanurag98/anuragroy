@@ -49,7 +49,10 @@ function App() {
     const showValue = sessionStorage.getItem("showValue");
     if (!showValue) {
       setShow(true);
-      sessionStorage.setItem("showValue", true);
+      setTimeout(()=>{
+        sessionStorage.setItem("showValue", true);
+      },5000)
+     
     }
     
    
