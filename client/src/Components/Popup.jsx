@@ -2,7 +2,7 @@ import React from 'react'
 
 function Popup({show,setShow}) {
   return (
-    <div className='absolute z-30 h-[100vh] w-[100%] flex justify-center items-center'>
+    <div className='absolute z-30 h-[100vh] w-[100%] flex justify-center items-center mt-20'>
         
 
 {/* <!-- Modal toggle --> */}
