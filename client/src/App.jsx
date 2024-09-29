@@ -58,7 +58,7 @@ function App() {
     return (
       <div className="relative">
         {/* <Skilinf/> */}
-        {/* {show && <Popup show={show} setShow={setShow} />} */}
+         {show && <Popup show={show} setShow={setShow} />} 
         <Nav />
         <HeroSectionTwo />
         <SkillsInfo />
