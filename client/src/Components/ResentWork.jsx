@@ -42,7 +42,7 @@ function ResentWork() {
     // Filter projects based on category
     if (category === "all") {
       setProjectArray(projects);
-    } else {
+    } else{
       const arr = projects.filter((project) => project.projectType === category);
       setProjectArray(arr);
     }
